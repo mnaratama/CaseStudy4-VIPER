@@ -18,7 +18,9 @@
 		2341B6822A86323E0011D2A6 /* TransactionResultEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2341B6812A86323E0011D2A6 /* TransactionResultEntity.swift */; };
 		2341B6842A86324D0011D2A6 /* TransactionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2341B6832A86324D0011D2A6 /* TransactionPresenter.swift */; };
 		2341B6862A8632630011D2A6 /* TransactionResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2341B6852A8632630011D2A6 /* TransactionResultViewController.swift */; };
-		2341B6892A8636980011D2A6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2341B6882A8636980011D2A6 /* GoogleService-Info.plist */; };
+		23940C102A874331005F8158 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23940C0F2A874331005F8158 /* GoogleService-Info.plist */; };
+		23940C132A874648005F8158 /* TransactionResultViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23940C122A874648005F8158 /* TransactionResultViewControllerTests.swift */; };
+		23940C152A87465C005F8158 /* TransactionResultPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23940C142A87465C005F8158 /* TransactionResultPresenterTest.swift */; };
 		33C6818E3D5AD3A0AB35DDB7 /* Pods_PushNotifiationApp_PushNotifiationAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF7BBC3FFD5FE18F5AB99D9 /* Pods_PushNotifiationApp_PushNotifiationAppUITests.framework */; };
 		CE9BB7D14095D7069DB53565 /* Pods_PushNotifiationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CD82E9EDFF1DCC508A4CFD /* Pods_PushNotifiationApp.framework */; };
 		F5201A6560817B1F68383AAE /* Pods_PushNotifiationAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D15690BEFEAA6A3AAC04B7 /* Pods_PushNotifiationAppTests.framework */; };
@@ -59,7 +61,9 @@
 		2341B6832A86324D0011D2A6 /* TransactionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionPresenter.swift; sourceTree = "<group>"; };
 		2341B6852A8632630011D2A6 /* TransactionResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionResultViewController.swift; sourceTree = "<group>"; };
 		2341B6872A8633E70011D2A6 /* PushNotifiationApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PushNotifiationApp.entitlements; sourceTree = "<group>"; };
-		2341B6882A8636980011D2A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		23940C0F2A874331005F8158 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		23940C122A874648005F8158 /* TransactionResultViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionResultViewControllerTests.swift; sourceTree = "<group>"; };
+		23940C142A87465C005F8158 /* TransactionResultPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionResultPresenterTest.swift; sourceTree = "<group>"; };
 		23CD82E9EDFF1DCC508A4CFD /* Pods_PushNotifiationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNotifiationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B84062FAB762FAB9BE1FD4 /* Pods-PushNotifiationApp-PushNotifiationAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifiationApp-PushNotifiationAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-PushNotifiationApp-PushNotifiationAppUITests/Pods-PushNotifiationApp-PushNotifiationAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		76F2A60FEE4194CECCE5F44F /* Pods-PushNotifiationAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifiationAppTests.debug.xcconfig"; path = "Target Support Files/Pods-PushNotifiationAppTests/Pods-PushNotifiationAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -138,8 +142,8 @@
 				2341B6792A8631D80011D2A6 /* Module */,
 				2341B64C2A860EF80011D2A6 /* ViewController.swift */,
 				2341B6512A860EF90011D2A6 /* Assets.xcassets */,
-				2341B6882A8636980011D2A6 /* GoogleService-Info.plist */,
 				2341B6562A860EF90011D2A6 /* Info.plist */,
+				23940C0F2A874331005F8158 /* GoogleService-Info.plist */,
 			);
 			path = PushNotifiationApp;
 			sourceTree = "<group>";
@@ -147,6 +151,7 @@
 		2341B65E2A860EFA0011D2A6 /* PushNotifiationAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				23940C112A87463A005F8158 /* Module */,
 				2341B65F2A860EFA0011D2A6 /* PushNotifiationAppTests.swift */,
 			);
 			path = PushNotifiationAppTests;
@@ -219,6 +224,15 @@
 				2341B6852A8632630011D2A6 /* TransactionResultViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		23940C112A87463A005F8158 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				23940C122A874648005F8158 /* TransactionResultViewControllerTests.swift */,
+				23940C142A87465C005F8158 /* TransactionResultPresenterTest.swift */,
+			);
+			path = Module;
 			sourceTree = "<group>";
 		};
 		55DB0B5C09E655B93994F4F1 /* Pods */ = {
@@ -344,7 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2341B6522A860EF90011D2A6 /* Assets.xcassets in Resources */,
-				2341B6892A8636980011D2A6 /* GoogleService-Info.plist in Resources */,
+				23940C102A874331005F8158 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +500,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23940C152A87465C005F8158 /* TransactionResultPresenterTest.swift in Sources */,
+				23940C132A874648005F8158 /* TransactionResultViewControllerTests.swift in Sources */,
 				2341B6602A860EFA0011D2A6 /* PushNotifiationAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -17,6 +17,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
+        Messaging.messaging().delegate = self
+        UNUserNotificationCenter.current().delegate = self
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { (granted, error) in
+            if granted {
+                DispatchQueue.main.async {
+                    application.registerForRemoteNotifications()
+                }
+            }
+        }
+        
         return true
     }
 
@@ -34,6 +44,40 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
-
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        Messaging.messaging().apnsToken = deviceToken
+    }
+    
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        handleNotification(userInfo: userInfo)
+        completionHandler(.newData)
+    }
+    
+    func handleNotification(userInfo: [AnyHashable: Any]) {
+        if let deepLink = userInfo["deepLink"] as? String, let url = URL(string: deepLink) {
+            if let scheme = url.scheme, scheme == "sample.id" {
+                let pathComponents = url.pathComponents
+                
+                var parameters = [String: String]()
+                URLComponents(string: deepLink)?.queryItems?.forEach { parameters[$0.name] = $0.value }
+                
+                if let page = pathComponents.last, page == "result", let title = parameters["title"], let transactionCode = parameters["transactionCode"] {
+                    showTransactionResult(title: title, transactionCode: transactionCode)
+                }
+            }
+        }
+    }
+    
+    
+    func showTransactionResult(title: String, transactionCode: String) {
+        
+        let resultViewController = TransactionResultRouter.createModule(result: .init(transactionCode: transactionCode, transactionStatus: title))
+        
+        let window = UIWindow()
+        
+        if let navigationController = window.rootViewController as? UINavigationController {
+            navigationController.pushViewController(resultViewController, animated: true)
+        }
+    }
 }
 
