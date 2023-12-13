@@ -20,8 +20,8 @@
 		2341B6862A8632630011D2A6 /* TransactionResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2341B6852A8632630011D2A6 /* TransactionResultViewController.swift */; };
 		23940C132A874648005F8158 /* TransactionResultViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23940C122A874648005F8158 /* TransactionResultViewControllerTests.swift */; };
 		23940C152A87465C005F8158 /* TransactionResultPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23940C142A87465C005F8158 /* TransactionResultPresenterTest.swift */; };
-		23940C172A8792FB005F8158 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23940C162A8792FB005F8158 /* GoogleService-Info.plist */; };
 		33C6818E3D5AD3A0AB35DDB7 /* Pods_PushNotifiationApp_PushNotifiationAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF7BBC3FFD5FE18F5AB99D9 /* Pods_PushNotifiationApp_PushNotifiationAppUITests.framework */; };
+		59DA65D02B29889B00CCED71 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59DA65CF2B29889B00CCED71 /* GoogleService-Info.plist */; };
 		CE9BB7D14095D7069DB53565 /* Pods_PushNotifiationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CD82E9EDFF1DCC508A4CFD /* Pods_PushNotifiationApp.framework */; };
 		F5201A6560817B1F68383AAE /* Pods_PushNotifiationAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D15690BEFEAA6A3AAC04B7 /* Pods_PushNotifiationAppTests.framework */; };
 /* End PBXBuildFile section */
@@ -63,9 +63,9 @@
 		2341B6872A8633E70011D2A6 /* PushNotifiationApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PushNotifiationApp.entitlements; sourceTree = "<group>"; };
 		23940C122A874648005F8158 /* TransactionResultViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionResultViewControllerTests.swift; sourceTree = "<group>"; };
 		23940C142A87465C005F8158 /* TransactionResultPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionResultPresenterTest.swift; sourceTree = "<group>"; };
-		23940C162A8792FB005F8158 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		23CD82E9EDFF1DCC508A4CFD /* Pods_PushNotifiationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNotifiationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B84062FAB762FAB9BE1FD4 /* Pods-PushNotifiationApp-PushNotifiationAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifiationApp-PushNotifiationAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-PushNotifiationApp-PushNotifiationAppUITests/Pods-PushNotifiationApp-PushNotifiationAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		59DA65CF2B29889B00CCED71 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../CaseStudy4-VIPER-main/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		76F2A60FEE4194CECCE5F44F /* Pods-PushNotifiationAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifiationAppTests.debug.xcconfig"; path = "Target Support Files/Pods-PushNotifiationAppTests/Pods-PushNotifiationAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		795F4656BA8ACE8AF91A9382 /* Pods-PushNotifiationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifiationApp.release.xcconfig"; path = "Target Support Files/Pods-PushNotifiationApp/Pods-PushNotifiationApp.release.xcconfig"; sourceTree = "<group>"; };
 		86883D33CBEF69E83F69F659 /* Pods-PushNotifiationApp-PushNotifiationAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifiationApp-PushNotifiationAppUITests.release.xcconfig"; path = "Target Support Files/Pods-PushNotifiationApp-PushNotifiationAppUITests/Pods-PushNotifiationApp-PushNotifiationAppUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 				2341B64C2A860EF80011D2A6 /* ViewController.swift */,
 				2341B6512A860EF90011D2A6 /* Assets.xcassets */,
 				2341B6562A860EF90011D2A6 /* Info.plist */,
-				23940C162A8792FB005F8158 /* GoogleService-Info.plist */,
+				59DA65CF2B29889B00CCED71 /* GoogleService-Info.plist */,
 			);
 			path = PushNotifiationApp;
 			sourceTree = "<group>";
@@ -358,7 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2341B6522A860EF90011D2A6 /* Assets.xcassets in Resources */,
-				23940C172A8792FB005F8158 /* GoogleService-Info.plist in Resources */,
+				59DA65D02B29889B00CCED71 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
