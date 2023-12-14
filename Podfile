@@ -6,6 +6,12 @@ target 'PushNotifiationApp' do
   use_frameworks!
 
   # Pods for PushNotifiationApp
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
+  pod 'TTGSnackbar'
+  pod 'Alamofire'
+  pod 'Kingfisher', '7.6.1'
+  pod 'Charts'
 
   target 'PushNotifiationAppTests' do
     inherit! :search_paths
