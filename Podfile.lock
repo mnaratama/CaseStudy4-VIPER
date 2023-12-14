@@ -1,4 +1,9 @@
 PODS:
+  - Alamofire (5.8.1)
+  - Charts (4.1.0):
+    - Charts/Core (= 4.1.0)
+  - Charts/Core (4.1.0):
+    - SwiftAlgorithms (~> 1.0)
   - Firebase/Core (10.13.0):
     - Firebase/CoreOnly
     - FirebaseAnalytics (~> 10.13.0)
@@ -88,19 +93,28 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (7.11.5):
     - GoogleUtilities/Logger
+  - Kingfisher (7.6.1)
   - nanopb (2.30909.0):
     - nanopb/decode (= 2.30909.0)
     - nanopb/encode (= 2.30909.0)
   - nanopb/decode (2.30909.0)
   - nanopb/encode (2.30909.0)
   - PromisesObjC (2.3.1)
+  - SwiftAlgorithms (1.0.0)
+  - TTGSnackbar (1.11.1)
 
 DEPENDENCIES:
+  - Alamofire
+  - Charts
   - Firebase/Core
   - Firebase/Messaging
+  - Kingfisher (= 7.6.1)
+  - TTGSnackbar
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - Charts
     - Firebase
     - FirebaseAnalytics
     - FirebaseCore
@@ -110,10 +124,15 @@ SPEC REPOS:
     - GoogleAppMeasurement
     - GoogleDataTransport
     - GoogleUtilities
+    - Kingfisher
     - nanopb
     - PromisesObjC
+    - SwiftAlgorithms
+    - TTGSnackbar
 
 SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  Charts: ce0768268078eee0336f122c3c4ca248e4e204c5
   Firebase: 343d7539befb614d22b2eae24759f6307b1175e9
   FirebaseAnalytics: 9a12e090ead49f8877ed8132ae920e3cbbd2fcd0
   FirebaseCore: 9948a31ff2c6cf323f9b040068201a95d271b68d
@@ -123,9 +142,12 @@ SPEC CHECKSUMS:
   GoogleAppMeasurement: 3ae505b44174bcc0775f5c86cecc5826259fbb1e
   GoogleDataTransport: 54dee9d48d14580407f8f5fbf2f496e92437a2f2
   GoogleUtilities: 13e2c67ede716b8741c7989e26893d151b2b2084
+  Kingfisher: 93a3c6d0d551658a31e19f21747e1d15cb39d525
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+  TTGSnackbar: fea91c62637b5662f808a4c3b55f7631cb7e1ef7
 
-PODFILE CHECKSUM: fef4fb624e169fbda79ce0b404505364b170d35e
+PODFILE CHECKSUM: aa71f97b27eb17a5b927929c5eea9e0f47a28afa
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.13.0

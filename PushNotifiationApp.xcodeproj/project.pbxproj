@@ -22,6 +22,74 @@
 		23940C152A87465C005F8158 /* TransactionResultPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23940C142A87465C005F8158 /* TransactionResultPresenterTest.swift */; };
 		33C6818E3D5AD3A0AB35DDB7 /* Pods_PushNotifiationApp_PushNotifiationAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF7BBC3FFD5FE18F5AB99D9 /* Pods_PushNotifiationApp_PushNotifiationAppUITests.framework */; };
 		599FC8772B29B687008B10BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 599FC8762B29B686008B10BD /* GoogleService-Info.plist */; };
+		59DCBED32B2AA53500B490C0 /* UIViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBED12B2AA53500B490C0 /* UIViewHelper.swift */; };
+		59DCBED42B2AA53500B490C0 /* RouterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBED22B2AA53500B490C0 /* RouterHelper.swift */; };
+		59DCBF032B2AA54300B490C0 /* ScanQRPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBED72B2AA54200B490C0 /* ScanQRPresenter.swift */; };
+		59DCBF042B2AA54300B490C0 /* ScanQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBED92B2AA54200B490C0 /* ScanQRViewController.swift */; };
+		59DCBF052B2AA54300B490C0 /* ScanQRInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBEDB2B2AA54200B490C0 /* ScanQRInteractor.swift */; };
+		59DCBF062B2AA54300B490C0 /* ScanQRRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBEDD2B2AA54200B490C0 /* ScanQRRouter.swift */; };
+		59DCBF072B2AA54300B490C0 /* PaymentDetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBEE02B2AA54300B490C0 /* PaymentDetailEntity.swift */; };
+		59DCBF082B2AA54300B490C0 /* PaymentDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBEE22B2AA54300B490C0 /* PaymentDetailPresenter.swift */; };
+		59DCBF092B2AA54300B490C0 /* PaymentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBEE42B2AA54300B490C0 /* PaymentDetailViewController.swift */; };
+		59DCBF0A2B2AA54300B490C0 /* PaymentDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBEE62B2AA54300B490C0 /* PaymentDetailInteractor.swift */; };
+		59DCBF0B2B2AA54300B490C0 /* PaymentDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBEE82B2AA54300B490C0 /* PaymentDetailRouter.swift */; };
+		59DCBF0D2B2AA54300B490C0 /* TransactionHistoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBEED2B2AA54300B490C0 /* TransactionHistoryPresenter.swift */; };
+		59DCBF0E2B2AA54300B490C0 /* TransactionHitoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBEEF2B2AA54300B490C0 /* TransactionHitoryTableViewCell.swift */; };
+		59DCBF0F2B2AA54300B490C0 /* TransactionHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBEF02B2AA54300B490C0 /* TransactionHistoryViewController.swift */; };
+		59DCBF102B2AA54300B490C0 /* TransactionHistoryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBEF22B2AA54300B490C0 /* TransactionHistoryInteractor.swift */; };
+		59DCBF112B2AA54300B490C0 /* TransactionHistoryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBEF42B2AA54300B490C0 /* TransactionHistoryRouter.swift */; };
+		59DCBF122B2AA54300B490C0 /* HomeEntitiy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBEF72B2AA54300B490C0 /* HomeEntitiy.swift */; };
+		59DCBF132B2AA54300B490C0 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBEF92B2AA54300B490C0 /* HomePresenter.swift */; };
+		59DCBF142B2AA54300B490C0 /* HomeTableViewProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBEFC2B2AA54300B490C0 /* HomeTableViewProfileCell.swift */; };
+		59DCBF152B2AA54300B490C0 /* HomeTableMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBEFD2B2AA54300B490C0 /* HomeTableMenuCell.swift */; };
+		59DCBF162B2AA54300B490C0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBEFE2B2AA54300B490C0 /* HomeViewController.swift */; };
+		59DCBF172B2AA54300B490C0 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF002B2AA54300B490C0 /* HomeInteractor.swift */; };
+		59DCBF182B2AA54300B490C0 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF022B2AA54300B490C0 /* HomeRouter.swift */; };
+		59DCBF1A2B2AA9E500B490C0 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF192B2AA9E500B490C0 /* NetworkHelper.swift */; };
+		59DCBF302B2AA9EF00B490C0 /* PromoListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF1D2B2AA9EF00B490C0 /* PromoListEntity.swift */; };
+		59DCBF312B2AA9EF00B490C0 /* PromoListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF1F2B2AA9EF00B490C0 /* PromoListPresenter.swift */; };
+		59DCBF322B2AA9EF00B490C0 /* PromoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF212B2AA9EF00B490C0 /* PromoListViewController.swift */; };
+		59DCBF332B2AA9EF00B490C0 /* PromoListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF222B2AA9EF00B490C0 /* PromoListTableViewCell.swift */; };
+		59DCBF342B2AA9EF00B490C0 /* PromoListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF242B2AA9EF00B490C0 /* PromoListInteractor.swift */; };
+		59DCBF352B2AA9EF00B490C0 /* PromoListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF262B2AA9EF00B490C0 /* PromoListRouter.swift */; };
+		59DCBF362B2AA9EF00B490C0 /* PromoDetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF292B2AA9EF00B490C0 /* PromoDetailEntity.swift */; };
+		59DCBF372B2AA9EF00B490C0 /* PromoDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF2B2B2AA9EF00B490C0 /* PromoDetailPresenter.swift */; };
+		59DCBF382B2AA9EF00B490C0 /* PromoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF2D2B2AA9EF00B490C0 /* PromoDetailViewController.swift */; };
+		59DCBF392B2AA9EF00B490C0 /* PromoDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF2F2B2AA9EF00B490C0 /* PromoDetailRouter.swift */; };
+		59DCBF502B2AB02A00B490C0 /* PortofolioEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF3C2B2AB02A00B490C0 /* PortofolioEntity.swift */; };
+		59DCBF512B2AB02A00B490C0 /* PortofolioMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = 59DCBF3D2B2AB02A00B490C0 /* PortofolioMockData.json */; };
+		59DCBF522B2AB02A00B490C0 /* PortofolioPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF3F2B2AB02A00B490C0 /* PortofolioPresenter.swift */; };
+		59DCBF532B2AB02A00B490C0 /* PortofolioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF412B2AB02A00B490C0 /* PortofolioViewController.swift */; };
+		59DCBF542B2AB02A00B490C0 /* PortofolioInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF432B2AB02A00B490C0 /* PortofolioInteractor.swift */; };
+		59DCBF552B2AB02A00B490C0 /* PotofolioRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF452B2AB02A00B490C0 /* PotofolioRouter.swift */; };
+		59DCBF562B2AB02A00B490C0 /* TransactionDataEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF482B2AB02A00B490C0 /* TransactionDataEntity.swift */; };
+		59DCBF572B2AB02A00B490C0 /* TransactionDataPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF4A2B2AB02A00B490C0 /* TransactionDataPresenter.swift */; };
+		59DCBF582B2AB02A00B490C0 /* TransactionDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF4C2B2AB02A00B490C0 /* TransactionDataViewController.swift */; };
+		59DCBF592B2AB02A00B490C0 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF4D2B2AB02A00B490C0 /* TransactionTableViewCell.swift */; };
+		59DCBF5A2B2AB02A00B490C0 /* TransactionDataRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF4F2B2AB02A00B490C0 /* TransactionDataRouter.swift */; };
+		59DCBF6B2B2AB5B500B490C0 /* PaymentDetailPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF5C2B2AB5B500B490C0 /* PaymentDetailPresenterTests.swift */; };
+		59DCBF6C2B2AB5B500B490C0 /* PaymentDetailInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF5D2B2AB5B500B490C0 /* PaymentDetailInteractorTest.swift */; };
+		59DCBF6D2B2AB5B500B490C0 /* PaymentDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF5E2B2AB5B500B490C0 /* PaymentDetailViewControllerTests.swift */; };
+		59DCBF6E2B2AB5B500B490C0 /* TransactionHistoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF602B2AB5B500B490C0 /* TransactionHistoryTests.swift */; };
+		59DCBF6F2B2AB5B500B490C0 /* TransactionHistoryPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF612B2AB5B500B490C0 /* TransactionHistoryPresenterTests.swift */; };
+		59DCBF702B2AB5B500B490C0 /* HomeRouterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF632B2AB5B500B490C0 /* HomeRouterTest.swift */; };
+		59DCBF712B2AB5B500B490C0 /* HomePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF642B2AB5B500B490C0 /* HomePresenterTests.swift */; };
+		59DCBF722B2AB5B500B490C0 /* HomeViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF652B2AB5B500B490C0 /* HomeViewControllerTest.swift */; };
+		59DCBF732B2AB5B500B490C0 /* QRScanPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF672B2AB5B500B490C0 /* QRScanPresenterTest.swift */; };
+		59DCBF742B2AB5B500B490C0 /* QRScanInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF682B2AB5B500B490C0 /* QRScanInteractorTests.swift */; };
+		59DCBF752B2AB5B500B490C0 /* QRScanViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF692B2AB5B500B490C0 /* QRScanViewControllerTests.swift */; };
+		59DCBF762B2AB5B500B490C0 /* QRScanRouteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF6A2B2AB5B500B490C0 /* QRScanRouteTests.swift */; };
+		59DCBF7F2B2AB74000B490C0 /* PromoDetailPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF792B2AB73F00B490C0 /* PromoDetailPresenterTests.swift */; };
+		59DCBF802B2AB74000B490C0 /* PromoDetailModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF7A2B2AB73F00B490C0 /* PromoDetailModuleTests.swift */; };
+		59DCBF812B2AB74000B490C0 /* PromoListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF7C2B2AB74000B490C0 /* PromoListPresenterTests.swift */; };
+		59DCBF822B2AB74000B490C0 /* PromoListRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF7D2B2AB74000B490C0 /* PromoListRouterTests.swift */; };
+		59DCBF832B2AB74000B490C0 /* PromoListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBF7E2B2AB74000B490C0 /* PromoListViewControllerTests.swift */; };
+		59DCBFAD2B2AB81700B490C0 /* PortofolioPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBFA62B2AB81700B490C0 /* PortofolioPresenterTests.swift */; };
+		59DCBFAE2B2AB81700B490C0 /* PortofolioViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBFA72B2AB81700B490C0 /* PortofolioViewControllerTests.swift */; };
+		59DCBFAF2B2AB81700B490C0 /* PortofolioInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBFA82B2AB81700B490C0 /* PortofolioInteractorTests.swift */; };
+		59DCBFB02B2AB81700B490C0 /* PortofolioRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBFA92B2AB81700B490C0 /* PortofolioRouterTests.swift */; };
+		59DCBFB12B2AB81700B490C0 /* TransactionDataViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBFAB2B2AB81700B490C0 /* TransactionDataViewControllerTests.swift */; };
+		59DCBFB22B2AB81700B490C0 /* TransactionDataPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DCBFAC2B2AB81700B490C0 /* TransactionDataPresenterTests.swift */; };
 		CE9BB7D14095D7069DB53565 /* Pods_PushNotifiationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CD82E9EDFF1DCC508A4CFD /* Pods_PushNotifiationApp.framework */; };
 		F5201A6560817B1F68383AAE /* Pods_PushNotifiationAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D15690BEFEAA6A3AAC04B7 /* Pods_PushNotifiationAppTests.framework */; };
 /* End PBXBuildFile section */
@@ -66,6 +134,74 @@
 		23CD82E9EDFF1DCC508A4CFD /* Pods_PushNotifiationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNotifiationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B84062FAB762FAB9BE1FD4 /* Pods-PushNotifiationApp-PushNotifiationAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifiationApp-PushNotifiationAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-PushNotifiationApp-PushNotifiationAppUITests/Pods-PushNotifiationApp-PushNotifiationAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		599FC8762B29B686008B10BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		59DCBED12B2AA53500B490C0 /* UIViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewHelper.swift; sourceTree = "<group>"; };
+		59DCBED22B2AA53500B490C0 /* RouterHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterHelper.swift; sourceTree = "<group>"; };
+		59DCBED72B2AA54200B490C0 /* ScanQRPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanQRPresenter.swift; sourceTree = "<group>"; };
+		59DCBED92B2AA54200B490C0 /* ScanQRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanQRViewController.swift; sourceTree = "<group>"; };
+		59DCBEDB2B2AA54200B490C0 /* ScanQRInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanQRInteractor.swift; sourceTree = "<group>"; };
+		59DCBEDD2B2AA54200B490C0 /* ScanQRRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanQRRouter.swift; sourceTree = "<group>"; };
+		59DCBEE02B2AA54300B490C0 /* PaymentDetailEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentDetailEntity.swift; sourceTree = "<group>"; };
+		59DCBEE22B2AA54300B490C0 /* PaymentDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentDetailPresenter.swift; sourceTree = "<group>"; };
+		59DCBEE42B2AA54300B490C0 /* PaymentDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentDetailViewController.swift; sourceTree = "<group>"; };
+		59DCBEE62B2AA54300B490C0 /* PaymentDetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentDetailInteractor.swift; sourceTree = "<group>"; };
+		59DCBEE82B2AA54300B490C0 /* PaymentDetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentDetailRouter.swift; sourceTree = "<group>"; };
+		59DCBEED2B2AA54300B490C0 /* TransactionHistoryPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistoryPresenter.swift; sourceTree = "<group>"; };
+		59DCBEEF2B2AA54300B490C0 /* TransactionHitoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHitoryTableViewCell.swift; sourceTree = "<group>"; };
+		59DCBEF02B2AA54300B490C0 /* TransactionHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistoryViewController.swift; sourceTree = "<group>"; };
+		59DCBEF22B2AA54300B490C0 /* TransactionHistoryInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistoryInteractor.swift; sourceTree = "<group>"; };
+		59DCBEF42B2AA54300B490C0 /* TransactionHistoryRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistoryRouter.swift; sourceTree = "<group>"; };
+		59DCBEF72B2AA54300B490C0 /* HomeEntitiy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeEntitiy.swift; sourceTree = "<group>"; };
+		59DCBEF92B2AA54300B490C0 /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		59DCBEFC2B2AA54300B490C0 /* HomeTableViewProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewProfileCell.swift; sourceTree = "<group>"; };
+		59DCBEFD2B2AA54300B490C0 /* HomeTableMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableMenuCell.swift; sourceTree = "<group>"; };
+		59DCBEFE2B2AA54300B490C0 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		59DCBF002B2AA54300B490C0 /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		59DCBF022B2AA54300B490C0 /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		59DCBF192B2AA9E500B490C0 /* NetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		59DCBF1D2B2AA9EF00B490C0 /* PromoListEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoListEntity.swift; sourceTree = "<group>"; };
+		59DCBF1F2B2AA9EF00B490C0 /* PromoListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoListPresenter.swift; sourceTree = "<group>"; };
+		59DCBF212B2AA9EF00B490C0 /* PromoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoListViewController.swift; sourceTree = "<group>"; };
+		59DCBF222B2AA9EF00B490C0 /* PromoListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoListTableViewCell.swift; sourceTree = "<group>"; };
+		59DCBF242B2AA9EF00B490C0 /* PromoListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoListInteractor.swift; sourceTree = "<group>"; };
+		59DCBF262B2AA9EF00B490C0 /* PromoListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoListRouter.swift; sourceTree = "<group>"; };
+		59DCBF292B2AA9EF00B490C0 /* PromoDetailEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoDetailEntity.swift; sourceTree = "<group>"; };
+		59DCBF2B2B2AA9EF00B490C0 /* PromoDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoDetailPresenter.swift; sourceTree = "<group>"; };
+		59DCBF2D2B2AA9EF00B490C0 /* PromoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoDetailViewController.swift; sourceTree = "<group>"; };
+		59DCBF2F2B2AA9EF00B490C0 /* PromoDetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoDetailRouter.swift; sourceTree = "<group>"; };
+		59DCBF3C2B2AB02A00B490C0 /* PortofolioEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortofolioEntity.swift; sourceTree = "<group>"; };
+		59DCBF3D2B2AB02A00B490C0 /* PortofolioMockData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PortofolioMockData.json; sourceTree = "<group>"; };
+		59DCBF3F2B2AB02A00B490C0 /* PortofolioPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortofolioPresenter.swift; sourceTree = "<group>"; };
+		59DCBF412B2AB02A00B490C0 /* PortofolioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortofolioViewController.swift; sourceTree = "<group>"; };
+		59DCBF432B2AB02A00B490C0 /* PortofolioInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortofolioInteractor.swift; sourceTree = "<group>"; };
+		59DCBF452B2AB02A00B490C0 /* PotofolioRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PotofolioRouter.swift; sourceTree = "<group>"; };
+		59DCBF482B2AB02A00B490C0 /* TransactionDataEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionDataEntity.swift; sourceTree = "<group>"; };
+		59DCBF4A2B2AB02A00B490C0 /* TransactionDataPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionDataPresenter.swift; sourceTree = "<group>"; };
+		59DCBF4C2B2AB02A00B490C0 /* TransactionDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionDataViewController.swift; sourceTree = "<group>"; };
+		59DCBF4D2B2AB02A00B490C0 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		59DCBF4F2B2AB02A00B490C0 /* TransactionDataRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionDataRouter.swift; sourceTree = "<group>"; };
+		59DCBF5C2B2AB5B500B490C0 /* PaymentDetailPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentDetailPresenterTests.swift; sourceTree = "<group>"; };
+		59DCBF5D2B2AB5B500B490C0 /* PaymentDetailInteractorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentDetailInteractorTest.swift; sourceTree = "<group>"; };
+		59DCBF5E2B2AB5B500B490C0 /* PaymentDetailViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentDetailViewControllerTests.swift; sourceTree = "<group>"; };
+		59DCBF602B2AB5B500B490C0 /* TransactionHistoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistoryTests.swift; sourceTree = "<group>"; };
+		59DCBF612B2AB5B500B490C0 /* TransactionHistoryPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistoryPresenterTests.swift; sourceTree = "<group>"; };
+		59DCBF632B2AB5B500B490C0 /* HomeRouterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouterTest.swift; sourceTree = "<group>"; };
+		59DCBF642B2AB5B500B490C0 /* HomePresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenterTests.swift; sourceTree = "<group>"; };
+		59DCBF652B2AB5B500B490C0 /* HomeViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTest.swift; sourceTree = "<group>"; };
+		59DCBF672B2AB5B500B490C0 /* QRScanPresenterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScanPresenterTest.swift; sourceTree = "<group>"; };
+		59DCBF682B2AB5B500B490C0 /* QRScanInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScanInteractorTests.swift; sourceTree = "<group>"; };
+		59DCBF692B2AB5B500B490C0 /* QRScanViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScanViewControllerTests.swift; sourceTree = "<group>"; };
+		59DCBF6A2B2AB5B500B490C0 /* QRScanRouteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScanRouteTests.swift; sourceTree = "<group>"; };
+		59DCBF792B2AB73F00B490C0 /* PromoDetailPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoDetailPresenterTests.swift; sourceTree = "<group>"; };
+		59DCBF7A2B2AB73F00B490C0 /* PromoDetailModuleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoDetailModuleTests.swift; sourceTree = "<group>"; };
+		59DCBF7C2B2AB74000B490C0 /* PromoListPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoListPresenterTests.swift; sourceTree = "<group>"; };
+		59DCBF7D2B2AB74000B490C0 /* PromoListRouterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoListRouterTests.swift; sourceTree = "<group>"; };
+		59DCBF7E2B2AB74000B490C0 /* PromoListViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoListViewControllerTests.swift; sourceTree = "<group>"; };
+		59DCBFA62B2AB81700B490C0 /* PortofolioPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortofolioPresenterTests.swift; sourceTree = "<group>"; };
+		59DCBFA72B2AB81700B490C0 /* PortofolioViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortofolioViewControllerTests.swift; sourceTree = "<group>"; };
+		59DCBFA82B2AB81700B490C0 /* PortofolioInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortofolioInteractorTests.swift; sourceTree = "<group>"; };
+		59DCBFA92B2AB81700B490C0 /* PortofolioRouterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortofolioRouterTests.swift; sourceTree = "<group>"; };
+		59DCBFAB2B2AB81700B490C0 /* TransactionDataViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionDataViewControllerTests.swift; sourceTree = "<group>"; };
+		59DCBFAC2B2AB81700B490C0 /* TransactionDataPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionDataPresenterTests.swift; sourceTree = "<group>"; };
 		76F2A60FEE4194CECCE5F44F /* Pods-PushNotifiationAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifiationAppTests.debug.xcconfig"; path = "Target Support Files/Pods-PushNotifiationAppTests/Pods-PushNotifiationAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		795F4656BA8ACE8AF91A9382 /* Pods-PushNotifiationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifiationApp.release.xcconfig"; path = "Target Support Files/Pods-PushNotifiationApp/Pods-PushNotifiationApp.release.xcconfig"; sourceTree = "<group>"; };
 		86883D33CBEF69E83F69F659 /* Pods-PushNotifiationApp-PushNotifiationAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifiationApp-PushNotifiationAppUITests.release.xcconfig"; path = "Target Support Files/Pods-PushNotifiationApp-PushNotifiationAppUITests/Pods-PushNotifiationApp-PushNotifiationAppUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +275,7 @@
 			children = (
 				2341B6872A8633E70011D2A6 /* PushNotifiationApp.entitlements */,
 				2341B6782A860F3E0011D2A6 /* App */,
+				59DCBED02B2AA53500B490C0 /* Helper */,
 				2341B6792A8631D80011D2A6 /* Module */,
 				2341B64C2A860EF80011D2A6 /* ViewController.swift */,
 				2341B6512A860EF90011D2A6 /* Assets.xcassets */,
@@ -178,6 +315,14 @@
 		2341B6792A8631D80011D2A6 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				59DCBF3A2B2AB02A00B490C0 /* PortofolioModule */,
+				59DCBF462B2AB02A00B490C0 /* PortofolioTransactionData */,
+				59DCBF272B2AA9EF00B490C0 /* PromoDetailModule */,
+				59DCBF1B2B2AA9EF00B490C0 /* PromoListModule */,
+				59DCBEF52B2AA54300B490C0 /* HomeModule */,
+				59DCBEDE2B2AA54300B490C0 /* PaymentDetailModule */,
+				59DCBED52B2AA54200B490C0 /* ScanQRModule */,
+				59DCBEE92B2AA54300B490C0 /* TransactionHistoryModule */,
 				2341B67A2A8631E40011D2A6 /* TransactionResult */,
 			);
 			path = Module;
@@ -229,8 +374,15 @@
 		23940C112A87463A005F8158 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				23940C122A874648005F8158 /* TransactionResultViewControllerTests.swift */,
-				23940C142A87465C005F8158 /* TransactionResultPresenterTest.swift */,
+				59DCBFA52B2AB81700B490C0 /* PortofolioModuleTests */,
+				59DCBFAA2B2AB81700B490C0 /* TransactionDataTests */,
+				59DCBF782B2AB73F00B490C0 /* PromoDetailModuleTest */,
+				59DCBF7B2B2AB74000B490C0 /* PromoListModuleTests */,
+				59DCBF622B2AB5B500B490C0 /* HomeModulTest */,
+				59DCBF5B2B2AB5B500B490C0 /* PaymentDetailModuleTest */,
+				59DCBF662B2AB5B500B490C0 /* QRScanModuleTest */,
+				59DCBF5F2B2AB5B500B490C0 /* TransactionHistoryModuleTest */,
+				59DCBF772B2AB66E00B490C0 /* TransactionResult */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -246,6 +398,498 @@
 				13026F34356B1B220D4E6CFF /* Pods-PushNotifiationAppTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		59DCBED02B2AA53500B490C0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBED12B2AA53500B490C0 /* UIViewHelper.swift */,
+				59DCBF192B2AA9E500B490C0 /* NetworkHelper.swift */,
+				59DCBED22B2AA53500B490C0 /* RouterHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		59DCBED52B2AA54200B490C0 /* ScanQRModule */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBED62B2AA54200B490C0 /* Presenter */,
+				59DCBED82B2AA54200B490C0 /* View */,
+				59DCBEDA2B2AA54200B490C0 /* Interactor */,
+				59DCBEDC2B2AA54200B490C0 /* Router */,
+			);
+			path = ScanQRModule;
+			sourceTree = "<group>";
+		};
+		59DCBED62B2AA54200B490C0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBED72B2AA54200B490C0 /* ScanQRPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		59DCBED82B2AA54200B490C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBED92B2AA54200B490C0 /* ScanQRViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		59DCBEDA2B2AA54200B490C0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBEDB2B2AA54200B490C0 /* ScanQRInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		59DCBEDC2B2AA54200B490C0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBEDD2B2AA54200B490C0 /* ScanQRRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		59DCBEDE2B2AA54300B490C0 /* PaymentDetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBEDF2B2AA54300B490C0 /* Entitiy */,
+				59DCBEE12B2AA54300B490C0 /* Presenter */,
+				59DCBEE32B2AA54300B490C0 /* View */,
+				59DCBEE52B2AA54300B490C0 /* Interactor */,
+				59DCBEE72B2AA54300B490C0 /* Router */,
+			);
+			path = PaymentDetailModule;
+			sourceTree = "<group>";
+		};
+		59DCBEDF2B2AA54300B490C0 /* Entitiy */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBEE02B2AA54300B490C0 /* PaymentDetailEntity.swift */,
+			);
+			path = Entitiy;
+			sourceTree = "<group>";
+		};
+		59DCBEE12B2AA54300B490C0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBEE22B2AA54300B490C0 /* PaymentDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		59DCBEE32B2AA54300B490C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBEE42B2AA54300B490C0 /* PaymentDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		59DCBEE52B2AA54300B490C0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBEE62B2AA54300B490C0 /* PaymentDetailInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		59DCBEE72B2AA54300B490C0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBEE82B2AA54300B490C0 /* PaymentDetailRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		59DCBEE92B2AA54300B490C0 /* TransactionHistoryModule */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBEEC2B2AA54300B490C0 /* Presenter */,
+				59DCBEEE2B2AA54300B490C0 /* View */,
+				59DCBEF12B2AA54300B490C0 /* Interactor */,
+				59DCBEF32B2AA54300B490C0 /* Router */,
+			);
+			path = TransactionHistoryModule;
+			sourceTree = "<group>";
+		};
+		59DCBEEC2B2AA54300B490C0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBEED2B2AA54300B490C0 /* TransactionHistoryPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		59DCBEEE2B2AA54300B490C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBEEF2B2AA54300B490C0 /* TransactionHitoryTableViewCell.swift */,
+				59DCBEF02B2AA54300B490C0 /* TransactionHistoryViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		59DCBEF12B2AA54300B490C0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBEF22B2AA54300B490C0 /* TransactionHistoryInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		59DCBEF32B2AA54300B490C0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBEF42B2AA54300B490C0 /* TransactionHistoryRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		59DCBEF52B2AA54300B490C0 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBEF62B2AA54300B490C0 /* Entitiy */,
+				59DCBEF82B2AA54300B490C0 /* Presenter */,
+				59DCBEFA2B2AA54300B490C0 /* View */,
+				59DCBEFF2B2AA54300B490C0 /* Interactor */,
+				59DCBF012B2AA54300B490C0 /* Router */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		59DCBEF62B2AA54300B490C0 /* Entitiy */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBEF72B2AA54300B490C0 /* HomeEntitiy.swift */,
+			);
+			path = Entitiy;
+			sourceTree = "<group>";
+		};
+		59DCBEF82B2AA54300B490C0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBEF92B2AA54300B490C0 /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		59DCBEFA2B2AA54300B490C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBEFB2B2AA54300B490C0 /* HomeViewTableViewCell */,
+				59DCBEFE2B2AA54300B490C0 /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		59DCBEFB2B2AA54300B490C0 /* HomeViewTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBEFC2B2AA54300B490C0 /* HomeTableViewProfileCell.swift */,
+				59DCBEFD2B2AA54300B490C0 /* HomeTableMenuCell.swift */,
+			);
+			path = HomeViewTableViewCell;
+			sourceTree = "<group>";
+		};
+		59DCBEFF2B2AA54300B490C0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF002B2AA54300B490C0 /* HomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		59DCBF012B2AA54300B490C0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF022B2AA54300B490C0 /* HomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		59DCBF1B2B2AA9EF00B490C0 /* PromoListModule */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF1C2B2AA9EF00B490C0 /* Entity */,
+				59DCBF1E2B2AA9EF00B490C0 /* Presenter */,
+				59DCBF202B2AA9EF00B490C0 /* View */,
+				59DCBF232B2AA9EF00B490C0 /* Interactor */,
+				59DCBF252B2AA9EF00B490C0 /* Router */,
+			);
+			path = PromoListModule;
+			sourceTree = "<group>";
+		};
+		59DCBF1C2B2AA9EF00B490C0 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF1D2B2AA9EF00B490C0 /* PromoListEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		59DCBF1E2B2AA9EF00B490C0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF1F2B2AA9EF00B490C0 /* PromoListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		59DCBF202B2AA9EF00B490C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF212B2AA9EF00B490C0 /* PromoListViewController.swift */,
+				59DCBF222B2AA9EF00B490C0 /* PromoListTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		59DCBF232B2AA9EF00B490C0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF242B2AA9EF00B490C0 /* PromoListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		59DCBF252B2AA9EF00B490C0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF262B2AA9EF00B490C0 /* PromoListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		59DCBF272B2AA9EF00B490C0 /* PromoDetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF282B2AA9EF00B490C0 /* Entity */,
+				59DCBF2A2B2AA9EF00B490C0 /* Presenter */,
+				59DCBF2C2B2AA9EF00B490C0 /* View */,
+				59DCBF2E2B2AA9EF00B490C0 /* Router */,
+			);
+			path = PromoDetailModule;
+			sourceTree = "<group>";
+		};
+		59DCBF282B2AA9EF00B490C0 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF292B2AA9EF00B490C0 /* PromoDetailEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		59DCBF2A2B2AA9EF00B490C0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF2B2B2AA9EF00B490C0 /* PromoDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		59DCBF2C2B2AA9EF00B490C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF2D2B2AA9EF00B490C0 /* PromoDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		59DCBF2E2B2AA9EF00B490C0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF2F2B2AA9EF00B490C0 /* PromoDetailRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		59DCBF3A2B2AB02A00B490C0 /* PortofolioModule */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF3B2B2AB02A00B490C0 /* Entity */,
+				59DCBF3E2B2AB02A00B490C0 /* Presenter */,
+				59DCBF402B2AB02A00B490C0 /* View */,
+				59DCBF422B2AB02A00B490C0 /* Interactor */,
+				59DCBF442B2AB02A00B490C0 /* Router */,
+			);
+			path = PortofolioModule;
+			sourceTree = "<group>";
+		};
+		59DCBF3B2B2AB02A00B490C0 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF3C2B2AB02A00B490C0 /* PortofolioEntity.swift */,
+				59DCBF3D2B2AB02A00B490C0 /* PortofolioMockData.json */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		59DCBF3E2B2AB02A00B490C0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF3F2B2AB02A00B490C0 /* PortofolioPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		59DCBF402B2AB02A00B490C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF412B2AB02A00B490C0 /* PortofolioViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		59DCBF422B2AB02A00B490C0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF432B2AB02A00B490C0 /* PortofolioInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		59DCBF442B2AB02A00B490C0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF452B2AB02A00B490C0 /* PotofolioRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		59DCBF462B2AB02A00B490C0 /* PortofolioTransactionData */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF472B2AB02A00B490C0 /* Entity */,
+				59DCBF492B2AB02A00B490C0 /* Presenter */,
+				59DCBF4B2B2AB02A00B490C0 /* View */,
+				59DCBF4E2B2AB02A00B490C0 /* Router */,
+			);
+			path = PortofolioTransactionData;
+			sourceTree = "<group>";
+		};
+		59DCBF472B2AB02A00B490C0 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF482B2AB02A00B490C0 /* TransactionDataEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		59DCBF492B2AB02A00B490C0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF4A2B2AB02A00B490C0 /* TransactionDataPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		59DCBF4B2B2AB02A00B490C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF4C2B2AB02A00B490C0 /* TransactionDataViewController.swift */,
+				59DCBF4D2B2AB02A00B490C0 /* TransactionTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		59DCBF4E2B2AB02A00B490C0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF4F2B2AB02A00B490C0 /* TransactionDataRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		59DCBF5B2B2AB5B500B490C0 /* PaymentDetailModuleTest */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF5C2B2AB5B500B490C0 /* PaymentDetailPresenterTests.swift */,
+				59DCBF5D2B2AB5B500B490C0 /* PaymentDetailInteractorTest.swift */,
+				59DCBF5E2B2AB5B500B490C0 /* PaymentDetailViewControllerTests.swift */,
+			);
+			path = PaymentDetailModuleTest;
+			sourceTree = "<group>";
+		};
+		59DCBF5F2B2AB5B500B490C0 /* TransactionHistoryModuleTest */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF602B2AB5B500B490C0 /* TransactionHistoryTests.swift */,
+				59DCBF612B2AB5B500B490C0 /* TransactionHistoryPresenterTests.swift */,
+			);
+			path = TransactionHistoryModuleTest;
+			sourceTree = "<group>";
+		};
+		59DCBF622B2AB5B500B490C0 /* HomeModulTest */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF632B2AB5B500B490C0 /* HomeRouterTest.swift */,
+				59DCBF642B2AB5B500B490C0 /* HomePresenterTests.swift */,
+				59DCBF652B2AB5B500B490C0 /* HomeViewControllerTest.swift */,
+			);
+			path = HomeModulTest;
+			sourceTree = "<group>";
+		};
+		59DCBF662B2AB5B500B490C0 /* QRScanModuleTest */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF672B2AB5B500B490C0 /* QRScanPresenterTest.swift */,
+				59DCBF682B2AB5B500B490C0 /* QRScanInteractorTests.swift */,
+				59DCBF692B2AB5B500B490C0 /* QRScanViewControllerTests.swift */,
+				59DCBF6A2B2AB5B500B490C0 /* QRScanRouteTests.swift */,
+			);
+			path = QRScanModuleTest;
+			sourceTree = "<group>";
+		};
+		59DCBF772B2AB66E00B490C0 /* TransactionResult */ = {
+			isa = PBXGroup;
+			children = (
+				23940C122A874648005F8158 /* TransactionResultViewControllerTests.swift */,
+				23940C142A87465C005F8158 /* TransactionResultPresenterTest.swift */,
+			);
+			path = TransactionResult;
+			sourceTree = "<group>";
+		};
+		59DCBF782B2AB73F00B490C0 /* PromoDetailModuleTest */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF792B2AB73F00B490C0 /* PromoDetailPresenterTests.swift */,
+				59DCBF7A2B2AB73F00B490C0 /* PromoDetailModuleTests.swift */,
+			);
+			path = PromoDetailModuleTest;
+			sourceTree = "<group>";
+		};
+		59DCBF7B2B2AB74000B490C0 /* PromoListModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBF7C2B2AB74000B490C0 /* PromoListPresenterTests.swift */,
+				59DCBF7D2B2AB74000B490C0 /* PromoListRouterTests.swift */,
+				59DCBF7E2B2AB74000B490C0 /* PromoListViewControllerTests.swift */,
+			);
+			path = PromoListModuleTests;
+			sourceTree = "<group>";
+		};
+		59DCBFA52B2AB81700B490C0 /* PortofolioModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBFA62B2AB81700B490C0 /* PortofolioPresenterTests.swift */,
+				59DCBFA72B2AB81700B490C0 /* PortofolioViewControllerTests.swift */,
+				59DCBFA82B2AB81700B490C0 /* PortofolioInteractorTests.swift */,
+				59DCBFA92B2AB81700B490C0 /* PortofolioRouterTests.swift */,
+			);
+			path = PortofolioModuleTests;
+			sourceTree = "<group>";
+		};
+		59DCBFAA2B2AB81700B490C0 /* TransactionDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				59DCBFAB2B2AB81700B490C0 /* TransactionDataViewControllerTests.swift */,
+				59DCBFAC2B2AB81700B490C0 /* TransactionDataPresenterTests.swift */,
+			);
+			path = TransactionDataTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,6 +1003,7 @@
 			files = (
 				2341B6522A860EF90011D2A6 /* Assets.xcassets in Resources */,
 				599FC8772B29B687008B10BD /* GoogleService-Info.plist in Resources */,
+				59DCBF512B2AB02A00B490C0 /* PortofolioMockData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,12 +1131,56 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59DCBF352B2AA9EF00B490C0 /* PromoListRouter.swift in Sources */,
+				59DCBF592B2AB02A00B490C0 /* TransactionTableViewCell.swift in Sources */,
+				59DCBF142B2AA54300B490C0 /* HomeTableViewProfileCell.swift in Sources */,
+				59DCBF322B2AA9EF00B490C0 /* PromoListViewController.swift in Sources */,
 				2341B64D2A860EF80011D2A6 /* ViewController.swift in Sources */,
+				59DCBF102B2AA54300B490C0 /* TransactionHistoryInteractor.swift in Sources */,
+				59DCBF172B2AA54300B490C0 /* HomeInteractor.swift in Sources */,
+				59DCBF0E2B2AA54300B490C0 /* TransactionHitoryTableViewCell.swift in Sources */,
+				59DCBF082B2AA54300B490C0 /* PaymentDetailPresenter.swift in Sources */,
 				2341B6492A860EF80011D2A6 /* AppDelegate.swift in Sources */,
+				59DCBF572B2AB02A00B490C0 /* TransactionDataPresenter.swift in Sources */,
+				59DCBF302B2AA9EF00B490C0 /* PromoListEntity.swift in Sources */,
+				59DCBF502B2AB02A00B490C0 /* PortofolioEntity.swift in Sources */,
+				59DCBF0A2B2AA54300B490C0 /* PaymentDetailInteractor.swift in Sources */,
+				59DCBF382B2AA9EF00B490C0 /* PromoDetailViewController.swift in Sources */,
+				59DCBF5A2B2AB02A00B490C0 /* TransactionDataRouter.swift in Sources */,
+				59DCBF342B2AA9EF00B490C0 /* PromoListInteractor.swift in Sources */,
+				59DCBF372B2AA9EF00B490C0 /* PromoDetailPresenter.swift in Sources */,
 				2341B6802A8632230011D2A6 /* TransactionResultRouter.swift in Sources */,
+				59DCBF092B2AA54300B490C0 /* PaymentDetailViewController.swift in Sources */,
+				59DCBF132B2AA54300B490C0 /* HomePresenter.swift in Sources */,
+				59DCBF562B2AB02A00B490C0 /* TransactionDataEntity.swift in Sources */,
+				59DCBF182B2AA54300B490C0 /* HomeRouter.swift in Sources */,
+				59DCBF332B2AA9EF00B490C0 /* PromoListTableViewCell.swift in Sources */,
+				59DCBF0B2B2AA54300B490C0 /* PaymentDetailRouter.swift in Sources */,
+				59DCBF0D2B2AA54300B490C0 /* TransactionHistoryPresenter.swift in Sources */,
 				2341B6862A8632630011D2A6 /* TransactionResultViewController.swift in Sources */,
+				59DCBF072B2AA54300B490C0 /* PaymentDetailEntity.swift in Sources */,
 				2341B6842A86324D0011D2A6 /* TransactionPresenter.swift in Sources */,
 				2341B64B2A860EF80011D2A6 /* SceneDelegate.swift in Sources */,
+				59DCBF312B2AA9EF00B490C0 /* PromoListPresenter.swift in Sources */,
+				59DCBF392B2AA9EF00B490C0 /* PromoDetailRouter.swift in Sources */,
+				59DCBF542B2AB02A00B490C0 /* PortofolioInteractor.swift in Sources */,
+				59DCBED42B2AA53500B490C0 /* RouterHelper.swift in Sources */,
+				59DCBF582B2AB02A00B490C0 /* TransactionDataViewController.swift in Sources */,
+				59DCBF062B2AA54300B490C0 /* ScanQRRouter.swift in Sources */,
+				59DCBF162B2AA54300B490C0 /* HomeViewController.swift in Sources */,
+				59DCBED32B2AA53500B490C0 /* UIViewHelper.swift in Sources */,
+				59DCBF112B2AA54300B490C0 /* TransactionHistoryRouter.swift in Sources */,
+				59DCBF1A2B2AA9E500B490C0 /* NetworkHelper.swift in Sources */,
+				59DCBF052B2AA54300B490C0 /* ScanQRInteractor.swift in Sources */,
+				59DCBF362B2AA9EF00B490C0 /* PromoDetailEntity.swift in Sources */,
+				59DCBF522B2AB02A00B490C0 /* PortofolioPresenter.swift in Sources */,
+				59DCBF122B2AA54300B490C0 /* HomeEntitiy.swift in Sources */,
+				59DCBF032B2AA54300B490C0 /* ScanQRPresenter.swift in Sources */,
+				59DCBF532B2AB02A00B490C0 /* PortofolioViewController.swift in Sources */,
+				59DCBF152B2AA54300B490C0 /* HomeTableMenuCell.swift in Sources */,
+				59DCBF042B2AA54300B490C0 /* ScanQRViewController.swift in Sources */,
+				59DCBF0F2B2AA54300B490C0 /* TransactionHistoryViewController.swift in Sources */,
+				59DCBF552B2AB02A00B490C0 /* PotofolioRouter.swift in Sources */,
 				2341B6822A86323E0011D2A6 /* TransactionResultEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,9 +1189,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59DCBF812B2AB74000B490C0 /* PromoListPresenterTests.swift in Sources */,
+				59DCBFAE2B2AB81700B490C0 /* PortofolioViewControllerTests.swift in Sources */,
+				59DCBF742B2AB5B500B490C0 /* QRScanInteractorTests.swift in Sources */,
+				59DCBF6B2B2AB5B500B490C0 /* PaymentDetailPresenterTests.swift in Sources */,
+				59DCBFAF2B2AB81700B490C0 /* PortofolioInteractorTests.swift in Sources */,
+				59DCBF722B2AB5B500B490C0 /* HomeViewControllerTest.swift in Sources */,
+				59DCBFB12B2AB81700B490C0 /* TransactionDataViewControllerTests.swift in Sources */,
+				59DCBF832B2AB74000B490C0 /* PromoListViewControllerTests.swift in Sources */,
+				59DCBF6E2B2AB5B500B490C0 /* TransactionHistoryTests.swift in Sources */,
+				59DCBF702B2AB5B500B490C0 /* HomeRouterTest.swift in Sources */,
+				59DCBF7F2B2AB74000B490C0 /* PromoDetailPresenterTests.swift in Sources */,
+				59DCBF712B2AB5B500B490C0 /* HomePresenterTests.swift in Sources */,
+				59DCBF762B2AB5B500B490C0 /* QRScanRouteTests.swift in Sources */,
 				23940C152A87465C005F8158 /* TransactionResultPresenterTest.swift in Sources */,
+				59DCBF6D2B2AB5B500B490C0 /* PaymentDetailViewControllerTests.swift in Sources */,
+				59DCBF6F2B2AB5B500B490C0 /* TransactionHistoryPresenterTests.swift in Sources */,
+				59DCBFB02B2AB81700B490C0 /* PortofolioRouterTests.swift in Sources */,
+				59DCBF732B2AB5B500B490C0 /* QRScanPresenterTest.swift in Sources */,
+				59DCBF822B2AB74000B490C0 /* PromoListRouterTests.swift in Sources */,
 				23940C132A874648005F8158 /* TransactionResultViewControllerTests.swift in Sources */,
 				2341B6602A860EFA0011D2A6 /* PushNotifiationAppTests.swift in Sources */,
+				59DCBF802B2AB74000B490C0 /* PromoDetailModuleTests.swift in Sources */,
+				59DCBF752B2AB5B500B490C0 /* QRScanViewControllerTests.swift in Sources */,
+				59DCBF6C2B2AB5B500B490C0 /* PaymentDetailInteractorTest.swift in Sources */,
+				59DCBFAD2B2AB81700B490C0 /* PortofolioPresenterTests.swift in Sources */,
+				59DCBFB22B2AB81700B490C0 /* TransactionDataPresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

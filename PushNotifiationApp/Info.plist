@@ -38,5 +38,7 @@
 		<string>processing</string>
 		<string>remote-notification</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Use to scan QR</string>
 </dict>
 </plist>
