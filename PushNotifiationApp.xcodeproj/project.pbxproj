@@ -903,7 +903,7 @@
 				2341B6412A860EF80011D2A6 /* Sources */,
 				2341B6422A860EF80011D2A6 /* Frameworks */,
 				2341B6432A860EF80011D2A6 /* Resources */,
-				45FEADDF1F571885576DE0F3 /* [CP] Embed Pods Frameworks */,
+				144558EB26E64BA166B326A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -941,7 +941,7 @@
 				2341B6612A860EFA0011D2A6 /* Sources */,
 				2341B6622A860EFA0011D2A6 /* Frameworks */,
 				2341B6632A860EFA0011D2A6 /* Resources */,
-				CDBD95C4E2B7025CD9F1BF4C /* [CP] Embed Pods Frameworks */,
+				BD27121407C32FDCE96BCA07 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1024,6 +1024,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		144558EB26E64BA166B326A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PushNotifiationApp/Pods-PushNotifiationApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PushNotifiationApp/Pods-PushNotifiationApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PushNotifiationApp/Pods-PushNotifiationApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2D8EE8C682227B57252F0A85 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1046,21 +1063,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		45FEADDF1F571885576DE0F3 /* [CP] Embed Pods Frameworks */ = {
+		BD27121407C32FDCE96BCA07 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PushNotifiationApp/Pods-PushNotifiationApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-PushNotifiationApp-PushNotifiationAppUITests/Pods-PushNotifiationApp-PushNotifiationAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PushNotifiationApp/Pods-PushNotifiationApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-PushNotifiationApp-PushNotifiationAppUITests/Pods-PushNotifiationApp-PushNotifiationAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PushNotifiationApp/Pods-PushNotifiationApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PushNotifiationApp-PushNotifiationAppUITests/Pods-PushNotifiationApp-PushNotifiationAppUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BF994AAB2045E80C71AEF099 /* [CP] Check Pods Manifest.lock */ = {
@@ -1105,23 +1122,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CDBD95C4E2B7025CD9F1BF4C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PushNotifiationApp-PushNotifiationAppUITests/Pods-PushNotifiationApp-PushNotifiationAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PushNotifiationApp-PushNotifiationAppUITests/Pods-PushNotifiationApp-PushNotifiationAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PushNotifiationApp-PushNotifiationAppUITests/Pods-PushNotifiationApp-PushNotifiationAppUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
